@@ -1,0 +1,243 @@
+/*fonts*/
+@font-face {
+    font-family: Museo300;
+    src: url(../fonts/MuseoSansCyrl_4.otf);
+}
+@font-face {
+    font-family: Museo900;
+    src: url(../fonts/MuseoSansCyrl_8.otf);
+}
+@font-face {
+    font-family: Museo700;
+    src: url(../fonts/MuseoSansCyrl_7.otf);
+}
+@font-face {
+    font-family: Museo500;
+    src: url(../fonts/MuseoSansCyrl_5.otf);
+}
+/*header*/
+header > a{
+    margin-left: 3.75%;
+}
+.navbar {
+    padding: 0 0;
+}
+.navbar-brand {
+    font-family: Museo300;
+    color: rgb(193, 193, 193);
+    line-height: 1.355;
+    font-size: 18px;
+}
+.navbar-brand span {
+    font-family: Museo900;
+    color: #c45a26;
+    font-size: 22px;
+}
+.top-navigation {
+    height: 80px;
+    background: rgba(13,13,13,0.98) url(../images/bg-header.png) no-repeat left 0px top 0px;
+    background-size: cover;
+    z-index: 100;
+}
+.bg-inverse{
+    background-color: rgba(13,13,13,0.98) !important;
+}
+.top-navigation .mr-auto{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.navbar-toggleable-md .navbar-collapse{
+    margin-right: 3.75%;
+}
+.items-top-menu > li span{
+    font-family: Museo700;
+    color: #63b963;
+    font-size: 20px;
+}
+.items-top-menu > li{
+    font-family: Museo500;
+    font-size: 14px;
+    margin-right: 60px;
+}
+.items-top-menu > li:last-child{
+    margin-right: 0;
+}
+.stylish{
+    width:45px;
+    height:45px;
+    display:block;
+    border-radius:66px;
+    -moz-border-radius:66px;
+    -webkit-border-radius:66px;
+    -khtml-border-radius:66px;
+    border:#ffffff 2px solid;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flag{
+    background-image: url("../images/flag.png");
+}
+.tone{
+    border: 0;
+    background-image: url("../images/tone.png");
+}
+.tune{
+    border: 0;
+    background-image: url("../images/tune.png");
+}
+.tune-container{
+    position: relative;
+}
+.mini-circle{
+    width:15px;
+    height:15px;
+    display:block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius:66px;
+    -moz-border-radius:66px;
+    -webkit-border-radius:66px;
+    -khtml-border-radius:66px;
+    border:#56b356 1px solid;
+    background: #56b356;
+    color: white;
+    font-size: 9px;
+}
+.tune-container a:hover{
+    text-decoration: none;
+}
+.stylish-user{
+    width:55px;
+    height:55px;
+    display:block;
+    border-radius:66px;
+    -moz-border-radius:66px;
+    -webkit-border-radius:66px;
+    -khtml-border-radius:66px;
+    border:#ffffff 2px solid;
+    background-image: url("../images/user.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*left aside*/
+aside{
+    position: fixed;
+    left: 0;
+    top: 80px;
+    background-color: #00020b;
+    height: 700px;
+    width: 250px;
+    min-width: 107px;
+    z-index: 100;
+    overflow: scroll;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+aside .nav{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+nav li:last-child{
+    margin-bottom: 0;
+}
+nav li:first-child{
+    height: 75px;
+}
+nav li{
+    height: 100px;
+}
+nav li.bg-white{
+    height: 80px;
+    height: 80px;
+}
+nav .divider{
+    height: 1px;
+    margin: 0;
+    background: #1d1d1d;
+    width: 100%;
+}nav .divider2{
+    height: 1px;
+    margin: 0;
+    background: #c6c2c2;
+    width: 100%;
+}
+.container-aside-items img{
+    max-width: 60px;
+    max-height: 60px;
+    float: left;
+}
+nav img:before,
+nav img:after{
+    clear: left;
+}
+.nav-header img{
+    margin: 20px;
+}
+.info-aside-items{
+    max-width: 100%;
+    color:#c9c9c9;
+    margin-left:75px;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+nav h5{
+    font-family: Museo900;
+    font-size: 1em;
+}
+nav p{
+    font-family: Museo300;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+nav p span{
+    color: #3f70c1;
+    margin-left: 5px;
+}
+.container-aside-items{
+    margin: 10px 17px;
+}
+.container-aside-items img{
+    margin: 10px 0;
+}
+.container-aside-items button{
+    font-family: Museo500;
+    border-radius: 10px;
+    border: rgb(99, 185, 99) solid;
+    background-color: rgb(99, 185, 99);
+    width: 130px;
+    height: 25px;
+    color: #dceddc;
+}
+.bg-white{
+    background-color: #cacaca;
+}
+.bg-white img{
+    margin: 0px 0 ;
+}
+nav h4{
+    font-family: Museo700;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #000209;
+    padding-top: 23px;
+    padding-top: 23px;
+}
+.fixed-width{
+    width: 100px;
+}
+/*main block*/
+.main-block{
+    background-image: url("../images/bg.png");
+    width: 100%;
+    background-size: cover;
+}
